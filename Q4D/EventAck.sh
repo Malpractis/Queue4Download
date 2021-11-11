@@ -9,7 +9,7 @@ readonly SUBSCRIBER=/usr/bin/mosquitto_sub
 readonly BUS_HOST=testbed.chmuranet.com
 readonly BUS_PORT=1883
 readonly CHANNEL=ACK
-readonly OTHER_PARMS='-C 1'
+readonly OTHER_PARMS='-C 1 -q 2'
 
 readonly RTCONTROL=/home/owner/bin/rtcontrol
 readonly ACK=DONE
